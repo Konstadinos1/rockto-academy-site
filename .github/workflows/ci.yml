@@ -1,0 +1,57 @@
+name: CI
+
+# ROCKTO Academy is a static Vite app at the repository root, plus a small Python lab in labs/.
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  web:
+    name: Content check, types, unit tests, build, Playwright + axe
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - run: npm ci
+      - name: Content coverage and validation
+        run: npm run content:check
+      - name: Unit tests
+        run: npm test
+      - name: Build (typecheck + production bundle)
+        run: npm run build
+      - name: Install Playwright's Chromium
+        run: npx playwright install --with-deps chromium
+      - name: End-to-end and accessibility
+        run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: academy-playwright-results
+          path: test-results
+          if-no-files-found: ignore
+          retention-days: 7
+
+  lab:
+    name: D04 poisoning lab (pytest)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: labs
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q tests

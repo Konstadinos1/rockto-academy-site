@@ -1,0 +1,607 @@
+{
+  "generatedFrom": "scripts/content-report.ts",
+  "totals": {
+    "domains": 12,
+    "lessons": 120,
+    "practiceQuestions": 600,
+    "practiceMcq": 360,
+    "practiceOpen": 240,
+    "assessmentItems": 50,
+    "exercises": 120,
+    "sources": 72,
+    "glossaryTerms": 93,
+    "scoredQuestions": 650
+  },
+  "lessonWordRange": {
+    "min": 450,
+    "max": 838,
+    "mean": 528
+  },
+  "longestCorrectOptionCue": {
+    "rate": 0.006,
+    "flagged": [
+      "D05-L09-Q3",
+      "D10-L10-Q1"
+    ]
+  },
+  "perDomain": [
+    {
+      "domain": "D01",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 4,
+      "lessonWords": [
+        {
+          "id": "D01-L01",
+          "words": 818
+        },
+        {
+          "id": "D01-L02",
+          "words": 783
+        },
+        {
+          "id": "D01-L03",
+          "words": 720
+        },
+        {
+          "id": "D01-L04",
+          "words": 708
+        },
+        {
+          "id": "D01-L05",
+          "words": 559
+        },
+        {
+          "id": "D01-L06",
+          "words": 641
+        },
+        {
+          "id": "D01-L07",
+          "words": 649
+        },
+        {
+          "id": "D01-L08",
+          "words": 582
+        },
+        {
+          "id": "D01-L09",
+          "words": 588
+        },
+        {
+          "id": "D01-L10",
+          "words": 606
+        }
+      ]
+    },
+    {
+      "domain": "D02",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 5,
+      "lessonWords": [
+        {
+          "id": "D02-L01",
+          "words": 838
+        },
+        {
+          "id": "D02-L02",
+          "words": 704
+        },
+        {
+          "id": "D02-L03",
+          "words": 653
+        },
+        {
+          "id": "D02-L04",
+          "words": 626
+        },
+        {
+          "id": "D02-L05",
+          "words": 586
+        },
+        {
+          "id": "D02-L06",
+          "words": 561
+        },
+        {
+          "id": "D02-L07",
+          "words": 536
+        },
+        {
+          "id": "D02-L08",
+          "words": 602
+        },
+        {
+          "id": "D02-L09",
+          "words": 496
+        },
+        {
+          "id": "D02-L10",
+          "words": 568
+        }
+      ]
+    },
+    {
+      "domain": "D03",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 5,
+      "lessonWords": [
+        {
+          "id": "D03-L01",
+          "words": 636
+        },
+        {
+          "id": "D03-L02",
+          "words": 498
+        },
+        {
+          "id": "D03-L03",
+          "words": 527
+        },
+        {
+          "id": "D03-L04",
+          "words": 596
+        },
+        {
+          "id": "D03-L05",
+          "words": 508
+        },
+        {
+          "id": "D03-L06",
+          "words": 489
+        },
+        {
+          "id": "D03-L07",
+          "words": 466
+        },
+        {
+          "id": "D03-L08",
+          "words": 460
+        },
+        {
+          "id": "D03-L09",
+          "words": 480
+        },
+        {
+          "id": "D03-L10",
+          "words": 562
+        }
+      ]
+    },
+    {
+      "domain": "D04",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 5,
+      "lessonWords": [
+        {
+          "id": "D04-L01",
+          "words": 559
+        },
+        {
+          "id": "D04-L02",
+          "words": 459
+        },
+        {
+          "id": "D04-L03",
+          "words": 478
+        },
+        {
+          "id": "D04-L04",
+          "words": 469
+        },
+        {
+          "id": "D04-L05",
+          "words": 491
+        },
+        {
+          "id": "D04-L06",
+          "words": 467
+        },
+        {
+          "id": "D04-L07",
+          "words": 514
+        },
+        {
+          "id": "D04-L08",
+          "words": 518
+        },
+        {
+          "id": "D04-L09",
+          "words": 480
+        },
+        {
+          "id": "D04-L10",
+          "words": 540
+        }
+      ]
+    },
+    {
+      "domain": "D05",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 5,
+      "lessonWords": [
+        {
+          "id": "D05-L01",
+          "words": 535
+        },
+        {
+          "id": "D05-L02",
+          "words": 500
+        },
+        {
+          "id": "D05-L03",
+          "words": 485
+        },
+        {
+          "id": "D05-L04",
+          "words": 482
+        },
+        {
+          "id": "D05-L05",
+          "words": 463
+        },
+        {
+          "id": "D05-L06",
+          "words": 493
+        },
+        {
+          "id": "D05-L07",
+          "words": 474
+        },
+        {
+          "id": "D05-L08",
+          "words": 472
+        },
+        {
+          "id": "D05-L09",
+          "words": 469
+        },
+        {
+          "id": "D05-L10",
+          "words": 459
+        }
+      ]
+    },
+    {
+      "domain": "D06",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 4,
+      "lessonWords": [
+        {
+          "id": "D06-L01",
+          "words": 546
+        },
+        {
+          "id": "D06-L02",
+          "words": 501
+        },
+        {
+          "id": "D06-L03",
+          "words": 482
+        },
+        {
+          "id": "D06-L04",
+          "words": 494
+        },
+        {
+          "id": "D06-L05",
+          "words": 467
+        },
+        {
+          "id": "D06-L06",
+          "words": 479
+        },
+        {
+          "id": "D06-L07",
+          "words": 452
+        },
+        {
+          "id": "D06-L08",
+          "words": 473
+        },
+        {
+          "id": "D06-L09",
+          "words": 469
+        },
+        {
+          "id": "D06-L10",
+          "words": 457
+        }
+      ]
+    },
+    {
+      "domain": "D07",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 4,
+      "lessonWords": [
+        {
+          "id": "D07-L01",
+          "words": 511
+        },
+        {
+          "id": "D07-L02",
+          "words": 558
+        },
+        {
+          "id": "D07-L03",
+          "words": 523
+        },
+        {
+          "id": "D07-L04",
+          "words": 471
+        },
+        {
+          "id": "D07-L05",
+          "words": 464
+        },
+        {
+          "id": "D07-L06",
+          "words": 490
+        },
+        {
+          "id": "D07-L07",
+          "words": 493
+        },
+        {
+          "id": "D07-L08",
+          "words": 471
+        },
+        {
+          "id": "D07-L09",
+          "words": 467
+        },
+        {
+          "id": "D07-L10",
+          "words": 456
+        }
+      ]
+    },
+    {
+      "domain": "D08",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 4,
+      "lessonWords": [
+        {
+          "id": "D08-L01",
+          "words": 455
+        },
+        {
+          "id": "D08-L02",
+          "words": 494
+        },
+        {
+          "id": "D08-L03",
+          "words": 473
+        },
+        {
+          "id": "D08-L04",
+          "words": 480
+        },
+        {
+          "id": "D08-L05",
+          "words": 508
+        },
+        {
+          "id": "D08-L06",
+          "words": 488
+        },
+        {
+          "id": "D08-L07",
+          "words": 489
+        },
+        {
+          "id": "D08-L08",
+          "words": 452
+        },
+        {
+          "id": "D08-L09",
+          "words": 477
+        },
+        {
+          "id": "D08-L10",
+          "words": 518
+        }
+      ]
+    },
+    {
+      "domain": "D09",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 4,
+      "lessonWords": [
+        {
+          "id": "D09-L01",
+          "words": 535
+        },
+        {
+          "id": "D09-L02",
+          "words": 465
+        },
+        {
+          "id": "D09-L03",
+          "words": 455
+        },
+        {
+          "id": "D09-L04",
+          "words": 468
+        },
+        {
+          "id": "D09-L05",
+          "words": 464
+        },
+        {
+          "id": "D09-L06",
+          "words": 466
+        },
+        {
+          "id": "D09-L07",
+          "words": 482
+        },
+        {
+          "id": "D09-L08",
+          "words": 453
+        },
+        {
+          "id": "D09-L09",
+          "words": 476
+        },
+        {
+          "id": "D09-L10",
+          "words": 450
+        }
+      ]
+    },
+    {
+      "domain": "D10",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 4,
+      "lessonWords": [
+        {
+          "id": "D10-L01",
+          "words": 502
+        },
+        {
+          "id": "D10-L02",
+          "words": 523
+        },
+        {
+          "id": "D10-L03",
+          "words": 486
+        },
+        {
+          "id": "D10-L04",
+          "words": 529
+        },
+        {
+          "id": "D10-L05",
+          "words": 453
+        },
+        {
+          "id": "D10-L06",
+          "words": 502
+        },
+        {
+          "id": "D10-L07",
+          "words": 472
+        },
+        {
+          "id": "D10-L08",
+          "words": 468
+        },
+        {
+          "id": "D10-L09",
+          "words": 473
+        },
+        {
+          "id": "D10-L10",
+          "words": 486
+        }
+      ]
+    },
+    {
+      "domain": "D11",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 3,
+      "lessonWords": [
+        {
+          "id": "D11-L01",
+          "words": 575
+        },
+        {
+          "id": "D11-L02",
+          "words": 495
+        },
+        {
+          "id": "D11-L03",
+          "words": 487
+        },
+        {
+          "id": "D11-L04",
+          "words": 464
+        },
+        {
+          "id": "D11-L05",
+          "words": 491
+        },
+        {
+          "id": "D11-L06",
+          "words": 488
+        },
+        {
+          "id": "D11-L07",
+          "words": 491
+        },
+        {
+          "id": "D11-L08",
+          "words": 479
+        },
+        {
+          "id": "D11-L09",
+          "words": 475
+        },
+        {
+          "id": "D11-L10",
+          "words": 497
+        }
+      ]
+    },
+    {
+      "domain": "D12",
+      "lessons": 10,
+      "practiceQuestions": 50,
+      "assessmentItems": 3,
+      "lessonWords": [
+        {
+          "id": "D12-L01",
+          "words": 669
+        },
+        {
+          "id": "D12-L02",
+          "words": 649
+        },
+        {
+          "id": "D12-L03",
+          "words": 598
+        },
+        {
+          "id": "D12-L04",
+          "words": 607
+        },
+        {
+          "id": "D12-L05",
+          "words": 581
+        },
+        {
+          "id": "D12-L06",
+          "words": 612
+        },
+        {
+          "id": "D12-L07",
+          "words": 654
+        },
+        {
+          "id": "D12-L08",
+          "words": 676
+        },
+        {
+          "id": "D12-L09",
+          "words": 584
+        },
+        {
+          "id": "D12-L10",
+          "words": 737
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

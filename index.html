@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ROCKTO Academy — AI Security Lab. A self-study course on prompt injection, sensitive data leakage, training data poisoning, hallucinations and secure AI engineering." />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>ROCKTO Academy — AI Security Lab</title>
+    <script>
+      // Apply the saved theme before first paint so the page does not flash the wrong colours.
+      try {
+        var saved = JSON.parse(localStorage.getItem('rockto-academy:v1') || 'null');
+        var theme = saved && saved.settings && saved.settings.theme;
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>ROCKTO Academy needs JavaScript to run the lesson reader and quizzes.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

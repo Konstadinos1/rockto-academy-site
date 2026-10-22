@@ -1,0 +1,12 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+evidence/raw/
+.env
+.env.*
+__pycache__/
+.venv/
+.pytest_cache/
+*.local
+.DS_Store

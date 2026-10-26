@@ -7,6 +7,8 @@ const executablePath = process.env.CHROMIUM_PATH || undefined;
 export default defineConfig({
   testDir: './e2e',
   fullyParallel: true,
+  // Low-RAM dev boxes (6 GB) thrash with the default worker count; CI keeps defaults.
+  workers: process.env.CI ? undefined : 2,
   retries: 0,
   reporter: [['list']],
   use: {
